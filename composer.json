@@ -1,0 +1,24 @@
+{
+    "name": "mapbender/ol3-map",
+    "description": "Mapbender3 element using OpenLayers3",
+    "keywords": ["mapbender", "ol3", "openlayers"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Schmitz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ohvitorino/openlayers3": "3.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mapbender\\OL3Bundle": "src/"
+        }
+    }
+}

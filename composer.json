@@ -10,8 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "ohvitorino/openlayers3": "3.*"
+        "php": ">=5.3.0"
     },
     "config": {
         "bin-dir": "bin"
